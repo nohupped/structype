@@ -1,0 +1,14 @@
+[package]
+name = "structype"
+version = "3.0.0"
+authors = ["nohupped_arch <nohupped@users.noreply.github.com>"]
+edition = "2018"
+repository = "https://github.com/nohupped/structype"
+license = "MIT"
+keywords = ["macro", "derive", "procmacro", "types"]
+description = "This crate contains the exported types used in https://github.com/nohupped/structype_derive"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = {version = "1.0.123", features = ["derive"]}
